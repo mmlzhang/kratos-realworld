@@ -9,3 +9,5 @@ data:
   database:
     driver: mysql
     dsn: root:123456@tcp(127.0.0.1:3306)/realworld?charset=utf8mb4&parseTime=True&loc=Local
+jwt: 
+  secret: "I'm a secret"
